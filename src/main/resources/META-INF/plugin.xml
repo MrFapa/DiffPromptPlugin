@@ -1,0 +1,16 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>com.github.mrfapa.diffprompt</id>
+    <name>DiffPrompt</name>
+    <vendor>mrfapa</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <resource-bundle>messages.MyBundle</resource-bundle>
+
+    <actions>
+        <action id="PrintSelectedTextAction" class="com.github.mrfapa.diffprompt.BugCheckAction" text="Print Selected Text">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>

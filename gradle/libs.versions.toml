@@ -1,0 +1,32 @@
+[versions]
+# libraries
+junit = "4.13.2"
+retrofit = "2.9.0"
+gson = "2.10.1"
+gsonConverter = "2.9.0"
+loggingInterceptor = "3.14.9"
+slf4j = "2.0.13"
+logback = "1.4.14"
+
+# plugins
+changelog = "2.2.1"
+intelliJPlatform = "2.0.1"
+kotlin = "1.9.25"
+kover = "0.8.3"
+qodana = "2024.1.9"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+gsonConverter = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "gsonConverter"}
+loggingInterceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "loggingInterceptor"}
+slf4j = { group = "org.slf4j", name = "slf4j-api", version.ref = "slf4j" }
+logbackClassic = { group = "ch.qos.logback", name = "logback-classic", version.ref = "logback" }
+
+[plugins]
+changelog = { id = "org.jetbrains.changelog", version.ref = "changelog" }
+intelliJPlatform = { id = "org.jetbrains.intellij.platform", version.ref = "intelliJPlatform" }
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kover = { id = "org.jetbrains.kotlinx.kover", version.ref = "kover" }
+qodana = { id = "org.jetbrains.qodana", version.ref = "qodana" }
