@@ -2,7 +2,7 @@
 # libraries
 junit = "4.13.2"
 retrofit = "2.9.0"
-gson = "2.10.1"
+gson = "2.12.1"
 gsonConverter = "2.9.0"
 loggingInterceptor = "3.14.9"
 slf4j = "2.0.13"
